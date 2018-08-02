@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class LivroController extends Controller
 {
     public function listagem() {
-        return "<h1>Listagem de livros</h1>";
+        return view('livro.listagem');
     }
 }
